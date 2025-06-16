@@ -256,10 +256,10 @@ def main():
     load_dotenv()
 
     # Initialize Garmin and Notion clients using environment variables
-    garmin_email = os.getenv("GARMIN_EMAIL")
-    garmin_password = os.getenv("GARMIN_PASSWORD")
-    notion_token = os.getenv("NOTION_TOKEN")
-    database_id = os.getenv("NOTION_DB_ID")
+    garmin_email = os.getenv("michkucwaj@gmail.com")
+    garmin_password = os.getenv("Mpower_3675")
+    notion_token = os.getenv("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")
+    database_id = os.getenv("214767ecb57f8059b617d180b271a472")
 
     # Initialize Garmin client and login
     garmin = Garmin(garmin_email, garmin_password)
